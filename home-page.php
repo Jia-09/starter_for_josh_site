@@ -9,7 +9,7 @@
      <div class="container">
           
 <!-- placeholder for aboutme--> 
-
+  <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->
          
        <div class="blocker"></div>  
             
