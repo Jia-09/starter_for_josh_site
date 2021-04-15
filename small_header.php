@@ -56,5 +56,6 @@
 </nav>    
     <!-- div for the main image the stretches to the edge of the page -->    
       <div class="container">  <!-- div that holds the content in the middle of the page -->
-      <h1> Games Design For the Future</h1> <!-- the main tag line --> </div><!-- container -->
+      
+          <!-- the main tag line --> </div><!-- container -->
 </header>
