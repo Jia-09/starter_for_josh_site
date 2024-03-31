@@ -29,21 +29,19 @@
 </div>
 
 <div class="col-md-4">
-  <img class="img-fluid" src="http://170.187.231.66/~mesh21/sub/wp-content/themes/starter_for_josh_site/images/port2.jpg" alt="woman">
-  <h4 class="article-title"> A PORTRAIT</h4>
-  <P class="date"> Friday November 2030 </P>
-  <p class="article-p">STS has never been shy of seeking new terrains of  investigation. More and  more  STS s cholars are  starting to explore and intervene in the arts.  This object of study  brings  new challenges and  opportunities that we want  to explore in this session.   We would  like to gather first of all simply  new kinds of  knowledge arising from  STS study  of the arts.
-  </p>
-     <a class="readmore" href="#"> CONTINUE READING </a>
+  <img class="img-fluid" src="<?php the_field('articleimage_middle');?>" alt="woman">
+  <h4 class="article-title"><?php the_field('articletitle_middle'); ?></h4>
+<p class="date" ><?php the_field('articledate_middle'); ?></p>
+<p class="article-p"><?php the_field('articleexcerpt_middle'); ?> </p>
+<a href="<?php the_field('readmore_middle'); ?>" class="readmore">CONTINUE READING</a>
   </div>
 
   <div class="col-md-4">
-    <img class="img-fluid" src="http://170.187.231.66/~mesh21/sub/wp-content/themes/starter_for_josh_site/images/port3.jpg" alt="woman">
-    <h4 class="article-title"> A PORTRAIT</h4>
-    <P class="date"> Friday November 2030 </P>
-    <p class="article-p">STS has never been shy of seeking new terrains of  investigation. More and  more  STS s cholars are  starting to explore and intervene in the arts.  This object of study  brings  new challenges and  opportunities that we want  to explore in this session.   We would  like to gather first of all simply  new kinds of  knowledge arising from  STS study  of the arts.
-    </p>
-       <a class="readmore" href="#"> CONTINUE READING </a>
+    <img class="img-fluid" src="<?php the_field('articleimage_right');?>" alt="woman">
+    <h4 class="article-title"><?php the_field('articletitle_right'); ?></h4>
+<p class="date" ><?php the_field('articledate_right'); ?></p>
+<p class="article-p"><?php the_field('articleexcerpt_right'); ?> </p>
+<a href="<?php the_field('readmore_right'); ?>" class="readmore">CONTINUE READING</a>
     </div>
 
             </div> <!-- row -->
