@@ -166,4 +166,10 @@ height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the
     padding-bottom: 5%;
 }
 
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
 
