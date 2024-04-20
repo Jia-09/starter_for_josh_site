@@ -34,7 +34,6 @@
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
 </head>
 <body>
 <header class="container-fluid small_herobg"> <!-- div for the main image the stretches to the edge of the page -->
