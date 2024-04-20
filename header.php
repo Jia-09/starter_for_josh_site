@@ -34,7 +34,6 @@
 </title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
 </head>
 <body>
 <header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
